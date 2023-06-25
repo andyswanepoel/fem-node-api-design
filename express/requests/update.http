@@ -1,0 +1,15 @@
+GET http://localhost:3001/api/update HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQzYjI3MzhjLTQxN2EtNGM2MC1hMzBlLTMyZGE1Yzk2ZmVjZCIsInVzZXJuYW1lIjoiYW5keXN3YW5lcG9lbCIsImlhdCI6MTY4NzYxNDk0MX0.xiEgLNW4Lo-dDCie3sVVvgiRUsPUQT8ftMkmYh_GEZk
+###
+
+POST http://localhost:3001/api/update HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQzYjI3MzhjLTQxN2EtNGM2MC1hMzBlLTMyZGE1Yzk2ZmVjZCIsInVzZXJuYW1lIjoiYW5keXN3YW5lcG9lbCIsImlhdCI6MTY4NzYxNDk0MX0.xiEgLNW4Lo-dDCie3sVVvgiRUsPUQT8ftMkmYh_GEZk
+
+{
+    "title": "new feaute note",
+    "body": "this is a great feature.",
+    "productId": "0816b0e8-f75d-44d7-8a5f-3ddb81a510b1"
+}
+###
